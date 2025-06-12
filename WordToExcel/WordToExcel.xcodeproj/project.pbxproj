@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		84D3BCFF2DDA2B3E005281CC /* libxlsxwriter in Frameworks */ = {isa = PBXBuildFile; productRef = 84D3BCFE2DDA2B3E005281CC /* libxlsxwriter */; };
+		84D3BD142DDAD6B6005281CC /* ZIPFoundation in Frameworks */ = {isa = PBXBuildFile; productRef = 84D3BD132DDAD6B6005281CC /* ZIPFoundation */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		84D3BCDE2DD9F9F7005281CC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 84D3BCC22DD9F9F4005281CC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 84D3BCC92DD9F9F4005281CC;
+			remoteInfo = WordToExcel;
+		};
+		84D3BCE82DD9F9F7005281CC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 84D3BCC22DD9F9F4005281CC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 84D3BCC92DD9F9F4005281CC;
+			remoteInfo = WordToExcel;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		84D3BCCA2DD9F9F4005281CC /* WordToExcel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WordToExcel.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		84D3BCDD2DD9F9F7005281CC /* WordToExcelTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WordToExcelTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		84D3BCE72DD9F9F7005281CC /* WordToExcelUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WordToExcelUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		84D3BCCC2DD9F9F4005281CC /* WordToExcel */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = WordToExcel;
+			sourceTree = "<group>";
+		};
+		84D3BCE02DD9F9F7005281CC /* WordToExcelTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = WordToExcelTests;
+			sourceTree = "<group>";
+		};
+		84D3BCEA2DD9F9F7005281CC /* WordToExcelUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = WordToExcelUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		84D3BCC72DD9F9F4005281CC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84D3BCFF2DDA2B3E005281CC /* libxlsxwriter in Frameworks */,
+				84D3BD142DDAD6B6005281CC /* ZIPFoundation in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84D3BCDA2DD9F9F7005281CC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84D3BCE42DD9F9F7005281CC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		84D3BCC12DD9F9F4005281CC = {
+			isa = PBXGroup;
+			children = (
+				84D3BCCC2DD9F9F4005281CC /* WordToExcel */,
+				84D3BCE02DD9F9F7005281CC /* WordToExcelTests */,
+				84D3BCEA2DD9F9F7005281CC /* WordToExcelUITests */,
+				84D3BCCB2DD9F9F4005281CC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		84D3BCCB2DD9F9F4005281CC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				84D3BCCA2DD9F9F4005281CC /* WordToExcel.app */,
+				84D3BCDD2DD9F9F7005281CC /* WordToExcelTests.xctest */,
+				84D3BCE72DD9F9F7005281CC /* WordToExcelUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		84D3BCC92DD9F9F4005281CC /* WordToExcel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84D3BCF12DD9F9F7005281CC /* Build configuration list for PBXNativeTarget "WordToExcel" */;
+			buildPhases = (
+				84D3BCC62DD9F9F4005281CC /* Sources */,
+				84D3BCC72DD9F9F4005281CC /* Frameworks */,
+				84D3BCC82DD9F9F4005281CC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				84D3BCCC2DD9F9F4005281CC /* WordToExcel */,
+			);
+			name = WordToExcel;
+			packageProductDependencies = (
+				84D3BCFE2DDA2B3E005281CC /* libxlsxwriter */,
+				84D3BD132DDAD6B6005281CC /* ZIPFoundation */,
+			);
+			productName = WordToExcel;
+			productReference = 84D3BCCA2DD9F9F4005281CC /* WordToExcel.app */;
+			productType = "com.apple.product-type.application";
+		};
+		84D3BCDC2DD9F9F7005281CC /* WordToExcelTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84D3BCF42DD9F9F7005281CC /* Build configuration list for PBXNativeTarget "WordToExcelTests" */;
+			buildPhases = (
+				84D3BCD92DD9F9F7005281CC /* Sources */,
+				84D3BCDA2DD9F9F7005281CC /* Frameworks */,
+				84D3BCDB2DD9F9F7005281CC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				84D3BCDF2DD9F9F7005281CC /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				84D3BCE02DD9F9F7005281CC /* WordToExcelTests */,
+			);
+			name = WordToExcelTests;
+			packageProductDependencies = (
+			);
+			productName = WordToExcelTests;
+			productReference = 84D3BCDD2DD9F9F7005281CC /* WordToExcelTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		84D3BCE62DD9F9F7005281CC /* WordToExcelUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84D3BCF72DD9F9F7005281CC /* Build configuration list for PBXNativeTarget "WordToExcelUITests" */;
+			buildPhases = (
+				84D3BCE32DD9F9F7005281CC /* Sources */,
+				84D3BCE42DD9F9F7005281CC /* Frameworks */,
+				84D3BCE52DD9F9F7005281CC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				84D3BCE92DD9F9F7005281CC /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				84D3BCEA2DD9F9F7005281CC /* WordToExcelUITests */,
+			);
+			name = WordToExcelUITests;
+			packageProductDependencies = (
+			);
+			productName = WordToExcelUITests;
+			productReference = 84D3BCE72DD9F9F7005281CC /* WordToExcelUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		84D3BCC22DD9F9F4005281CC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1630;
+				LastUpgradeCheck = 1630;
+				TargetAttributes = {
+					84D3BCC92DD9F9F4005281CC = {
+						CreatedOnToolsVersion = 16.3;
+					};
+					84D3BCDC2DD9F9F7005281CC = {
+						CreatedOnToolsVersion = 16.3;
+						TestTargetID = 84D3BCC92DD9F9F4005281CC;
+					};
+					84D3BCE62DD9F9F7005281CC = {
+						CreatedOnToolsVersion = 16.3;
+						TestTargetID = 84D3BCC92DD9F9F4005281CC;
+					};
+				};
+			};
+			buildConfigurationList = 84D3BCC52DD9F9F4005281CC /* Build configuration list for PBXProject "WordToExcel" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 84D3BCC12DD9F9F4005281CC;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				84D3BCFD2DDA2B3D005281CC /* XCRemoteSwiftPackageReference "libxlsxwriter" */,
+				84D3BD122DDAD6B6005281CC /* XCRemoteSwiftPackageReference "ZIPFoundation" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 84D3BCCB2DD9F9F4005281CC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				84D3BCC92DD9F9F4005281CC /* WordToExcel */,
+				84D3BCDC2DD9F9F7005281CC /* WordToExcelTests */,
+				84D3BCE62DD9F9F7005281CC /* WordToExcelUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		84D3BCC82DD9F9F4005281CC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84D3BCDB2DD9F9F7005281CC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84D3BCE52DD9F9F7005281CC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		84D3BCC62DD9F9F4005281CC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84D3BCD92DD9F9F7005281CC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84D3BCE32DD9F9F7005281CC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		84D3BCDF2DD9F9F7005281CC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 84D3BCC92DD9F9F4005281CC /* WordToExcel */;
+			targetProxy = 84D3BCDE2DD9F9F7005281CC /* PBXContainerItemProxy */;
+		};
+		84D3BCE92DD9F9F7005281CC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 84D3BCC92DD9F9F4005281CC /* WordToExcel */;
+			targetProxy = 84D3BCE82DD9F9F7005281CC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		84D3BCEF2DD9F9F7005281CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		84D3BCF02DD9F9F7005281CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		84D3BCF22DD9F9F7005281CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = WordToExcel/WordToExcel.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 14.6;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.wordtoexcel.WordToExcel;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		84D3BCF32DD9F9F7005281CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = WordToExcel/WordToExcel.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 14.6;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.wordtoexcel.WordToExcel;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		84D3BCF52DD9F9F7005281CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.wordtoexcel.WordToExcelTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WordToExcel.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/WordToExcel";
+			};
+			name = Debug;
+		};
+		84D3BCF62DD9F9F7005281CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.wordtoexcel.WordToExcelTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WordToExcel.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/WordToExcel";
+			};
+			name = Release;
+		};
+		84D3BCF82DD9F9F7005281CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.wordtoexcel.WordToExcelUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = WordToExcel;
+			};
+			name = Debug;
+		};
+		84D3BCF92DD9F9F7005281CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.wordtoexcel.WordToExcelUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = WordToExcel;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		84D3BCC52DD9F9F4005281CC /* Build configuration list for PBXProject "WordToExcel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84D3BCEF2DD9F9F7005281CC /* Debug */,
+				84D3BCF02DD9F9F7005281CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84D3BCF12DD9F9F7005281CC /* Build configuration list for PBXNativeTarget "WordToExcel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84D3BCF22DD9F9F7005281CC /* Debug */,
+				84D3BCF32DD9F9F7005281CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84D3BCF42DD9F9F7005281CC /* Build configuration list for PBXNativeTarget "WordToExcelTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84D3BCF52DD9F9F7005281CC /* Debug */,
+				84D3BCF62DD9F9F7005281CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84D3BCF72DD9F9F7005281CC /* Build configuration list for PBXNativeTarget "WordToExcelUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84D3BCF82DD9F9F7005281CC /* Debug */,
+				84D3BCF92DD9F9F7005281CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		84D3BCFD2DDA2B3D005281CC /* XCRemoteSwiftPackageReference "libxlsxwriter" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/jmcnamara/libxlsxwriter.git";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+		84D3BD122DDAD6B6005281CC /* XCRemoteSwiftPackageReference "ZIPFoundation" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/weichsel/ZIPFoundation.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.9.19;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		84D3BCFE2DDA2B3E005281CC /* libxlsxwriter */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 84D3BCFD2DDA2B3D005281CC /* XCRemoteSwiftPackageReference "libxlsxwriter" */;
+			productName = libxlsxwriter;
+		};
+		84D3BD132DDAD6B6005281CC /* ZIPFoundation */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 84D3BD122DDAD6B6005281CC /* XCRemoteSwiftPackageReference "ZIPFoundation" */;
+			productName = ZIPFoundation;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 84D3BCC22DD9F9F4005281CC /* Project object */;
+}

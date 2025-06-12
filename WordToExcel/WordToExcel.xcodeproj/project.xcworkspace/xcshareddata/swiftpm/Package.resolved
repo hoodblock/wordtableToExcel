@@ -1,0 +1,24 @@
+{
+  "originHash" : "4fdb812fb1ccda4cfb478f5b20ca8e210e49d969dd6ad812837b53e03f517583",
+  "pins" : [
+    {
+      "identity" : "libxlsxwriter",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/jmcnamara/libxlsxwriter.git",
+      "state" : {
+        "branch" : "main",
+        "revision" : "21c11a2052162b24c121b766e4373b081ea07ff6"
+      }
+    },
+    {
+      "identity" : "zipfoundation",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/weichsel/ZIPFoundation.git",
+      "state" : {
+        "revision" : "02b6abe5f6eef7e3cbd5f247c5cc24e246efcfe0",
+        "version" : "0.9.19"
+      }
+    }
+  ],
+  "version" : 3
+}
